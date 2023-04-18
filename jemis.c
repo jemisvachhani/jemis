@@ -1,3 +1,4 @@
+// split of number 3 digit and 4 digit
 #include<stdio.h>
 void main()
 {

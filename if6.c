@@ -1,3 +1,5 @@
+//Write a programe to findout wether the given year is millineum year or not 
+// 1000 2000 3000 4000.....
 #include<stdio.h>
 void main()
 {

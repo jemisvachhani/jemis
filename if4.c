@@ -1,3 +1,4 @@
+//write a program to accept month number from user. display message "this month has 28 or 29 days" if month if february
 #include<stdio.h>
 void main()
 {

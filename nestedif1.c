@@ -16,10 +16,48 @@
 #include<stdio.h>
 void main()
 {
-     int day_month,option;
+     int month,day;
 
-    printf("enter day_month");
-    scanf("%d",&day_month);
+    printf("enter your brith month");
+    scanf("%d",&month);
+    printf("enter your brith day");
+    scanf("%d",&day);
+
+    if ((month == 3 && day >=21) || (month == 4 && day <=19))
+    {
+        printf("your zodiac sign is aries");
+    }
+    else if ((month == 4 && day >=20) || (month == 5 && day <=20))
+    {
+        printf("your zodiac sign is taurus");
+    }
+    else if ((month == 5 && day >=21) || (month == 6 && day <=20))
+    {
+        printf("your zodiac sign is gemini");
+    }
+    else if ((month ==6 && day >=21) || ( month == 7 && day <=22))
+     {
+        printf("your zodiac sign is cancer");
+     }
+    else if ((month ==7 && day >=23)  || (month ==8 && day <=22))
+    {
+        printf("your zodiac sign is ")
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
