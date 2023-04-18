@@ -23,6 +23,13 @@ void main()
     printf("enter your brith day");
     scanf("%d",&day);
 
+     if ((month > 12 || month < 0) || (day >31 || day <0 ))
+     {
+        printf("invalid input");
+     }
+     else 
+     {
+        
     if ((month == 3 && day >=21) || (month == 4 && day <=19))
     {
         printf("your zodiac sign is aries");
@@ -41,13 +48,14 @@ void main()
      }
     else if ((month ==7 && day >=23)  || (month ==8 && day <=22))
     {
-        printf("your zodiac sign is ")
+        printf("your zodiac sign is leo");
     }
+    
 
 
 
-
-
+   printf("\ngood bye....");
+}
 
 
 
