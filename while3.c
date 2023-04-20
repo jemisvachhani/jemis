@@ -13,19 +13,19 @@ void main()
     printf("%d ",ans);
    }
     
-    number= ans - number;
-    ans= number + ans;
-    printf("%d ",ans);
+    //number= ans - number;
+    //ans= number + ans;
+    //("%d ",ans);
     
     
-    number= ans - number;
-    ans= number + ans;
-    printf("%d ",ans);
+    //number= ans - number;
+    //ans= number + ans;
+    //printf("%d ",ans);
     
     
-    number= ans -number;
-    ans= number+ans;
-    printf("%d ",ans);
+    //number= ans -number;
+    //ans= number+ans;
+    //printf("%d ",ans);
     
 
 
