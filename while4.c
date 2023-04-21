@@ -6,20 +6,23 @@ void main()
 {
     int number=0,ans;
     printf("%d ",number);
-    while(number<1000)
-    {
-       number = number + 1;  
-       printf("%d ",number);
-    }
-    //number = number + 2;
-    //ans = ans + number; 
-    //printf("%d ",number);
 
-    //number = number + 3;
+    number = number + 1;  
+    ans = number;
+    printf("%d ",ans);
+    while(ans<1000)
+    {
+       number = number + 1;
+       ans = ans + number; 
+       printf("%d ",ans);
+    }
+    
+
+    //number = number + 1;
     //ans = ans + number;
     //printf("%d ",number);
     
-    //number = number + 4;
+    //number = number +1;
     //ans = ans + number;
     //printf("%d ",number);
 
