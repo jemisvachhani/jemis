@@ -4,7 +4,7 @@
 #include<stdio.h>
 void main()
 {
-    int count=0,falsh=0;
+    int count=0,falsh=0,temp=6;
     //printf("*");
     //printf("*");
     //printf("*");
@@ -32,19 +32,18 @@ void main()
     //    printf("*");
     //    count++;
    // }
-    while(count)
+    while(falsh<6)
     {
-        printf("\n");
-        count=0;
-        while(count< falsh)
+        
+        while(count< temp)
         {
             printf("*");
             count=count+1;
         }
-         falsh=falsh+1;
-          //printf("\n");
-          //count=0;
-         // falsh++;
+          printf("\n");
+         temp= temp - 1;
+         count=0;
+         falsh=falsh + 1;
 
     }
      
