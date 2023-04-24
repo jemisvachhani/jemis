@@ -12,12 +12,12 @@ void main()
        printf("%d ",ans);
        temp = temp + 4;
    }
-    printf("%d ",ans);
-    temp = temp + 4;
-    ans = ans + temp;
-    printf("%d ",ans);
-    temp = temp + 4;
-    ans = ans + temp;
+    //printf("%d ",ans);
+    //temp = temp + 4;
+    //ans = ans + temp;
+    //printf("%d ",ans);
+    //temp = temp + 4;
+    //ans = ans + temp;
 
 
 
