@@ -3,26 +3,33 @@
 #include<stdio.h>
 void main()
 {
-    int space=0,count=0
+    int space=0,count=0;
     for (space=0;space<5;space++)
     {
-        printf("-");
+      printf("_");
     }
-       printf("*");
-       printf("\n");
-       printf("-");
-       printf("-");
-       printf("-");
-       printf("-");
+    printf("*");
+    printf("\n");
+    for (space=0;space<4;space++)
+    {
+       printf("_");
+    }
+    for (count=0;count<2;count++)
+    {
+        printf("*");
+        printf("_");
+    }
+      
+    
+    
 
-       {
-         printf("*");
-         printf("-");
-       }
-       
-       printf("*");
-       printf("\n");
-       
+    
+
+    
+
+
+
+   
 
 
 
