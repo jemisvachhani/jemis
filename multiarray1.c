@@ -13,7 +13,7 @@ void main()
       }
    }
    printf("\nThe run fo matche 1 are");
-   printf("\nplayer 1= match[1][0]");
+   printf("\nplayer 1= match[0][0]");
 
    //   printf("Enter run of matche 2");
    //   for(count=0;count<5;count++)
