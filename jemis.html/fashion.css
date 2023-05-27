@@ -1,3 +1,43 @@
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+@media (min-width: 1281px) {
+  /* code in this block will be applied only if device width>1281 */
+  #navbar {
+    gap: 50px;
+    
+  }
+}
+
+/* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* code in this block will be applied only if device width>1025 and <1280 */
+  #navbar {
+    gap: 200px;
+  }
+}
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* code in this block will be applied only if device width>768 and <1024 */
+  #navbar {
+    gap: 125px;
+  }
+}
+
+/* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* code in this block will be applied only if device width>481 and <767 */
+  #navbar {
+    gap: 50px;
+  }
+}
+
+/*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* code in this block will be applied only if device width>320 and <480 */
+  #navbar {
+    gap: 25px;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -7,15 +47,12 @@
   display: flex;
   background-color: rgba(0, 0, 0, 0.925);
   color: white;
-  
 }
 
 #title_text {
   margin-top: 100px;
   font-size: 4.5rem;
   font-family: "Smokum", cursive;
-  
-  
 }
 
 .nav_link:link,
@@ -23,8 +60,7 @@
 .nav_link:active {
   color: white;
   text-decoration: none;
-  font-family: 'Pangolin', cursive
-  
+  font-family: "Pangolin", cursive;
 }
 
 ul {
@@ -38,14 +74,25 @@ li {
 #link_type {
   margin-top: 150px;
   font-size: 1.7rem;
-  
 }
-.menu
-{
-  margin-right: 240px;
+.menu {
+  margin-right: 100px;
 }
-#banner1
+#banner1 {
+  position: absolute;
+  margin-top: 303px;
+  width: 100%;
+  height: 100%;
+}
+.nav_link:hover {
+  color:#F6BA6F;
+}
+#title_text:hover
 {
-   position: absolute;
-   margin-top: 304px;
+  color: #F6BA6F;
+}
+#about_us
+{
+  margin-top: 100px;
+  font-size: 2.5rem;
 }
