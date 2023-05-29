@@ -41,6 +41,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  
 }
 
 #navbar {
@@ -76,13 +77,18 @@ li {
   font-size: 1.7rem;
 }
 .menu {
-  margin-right: 100px;
+  margin-right: 160px;
 }
-#banner1 {
+#icon_text {
+  display: flex;
+  gap: 150px;
+}
+#banner_image {
   position: absolute;
-  margin-top: 303px;
+  margin-top: 0px;
   width: 100%;
   height: 100%;
+  
 }
 .nav_link:hover {
   color:#F6BA6F;
@@ -91,10 +97,9 @@ li {
 {
   color: #F6BA6F;
 }
-#about_us
-{
-   font-size: 2.5rem;
-   color: red;
-  
- 
+.about_us
+{ 
+  font-size: 2.5rem;
+   background-color: rgba(0, 0, 0, 0.925);
 }
+
